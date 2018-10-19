@@ -1,0 +1,2 @@
+Java-Module: javafx.media
+Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.arch=x86_64) )

@@ -1,0 +1,2 @@
+Java-Module: javafx.graphics
+Eclipse-PlatformFilter: (& (osgi.os=macosx) (osgi.arch=x86_64) )

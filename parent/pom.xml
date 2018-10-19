@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>at.bestsolution.openjfx</groupId>
+	<artifactId>parent</artifactId>
+	<version>11.0.0</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>openjfx.base</module>
+		<module>openjfx.graphics.mac</module>
+		<module>openjfx.graphics.win32_64</module>
+		<module>openjfx.graphics.linux_64</module>
+		<module>openjfx.fxml</module>
+		<module>openjfx.controls</module>
+		<module>openjfx.swing</module>
+		<module>openjfx.media.mac</module>
+		<module>openjfx.media.linux_64</module>
+		<module>openjfx.media.win32_64</module>
+		<module>openjfx.web.linux_64</module>
+		<module>openjfx.web.mac</module>
+		<module>openjfx.web.win32_64</module>
+	</modules>
+	
+	<properties>
+		<openjfx.version>11</openjfx.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>biz.aQute.bnd</groupId>
+				<artifactId>bnd-maven-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<id>default-bnd-process</id>
+						<goals>
+							<goal>bnd-process</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<skip>false</skip>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
+			</plugin>
+
+			<!-- The following configuration is required because bnd-maven-plugin 
+				generates the manifest to target/classes/META-INF/MANIFEST.MF but the normal 
+				maven-jar-plugin does not use it. If the jar-plugin is patched to pick up 
+				the manifest from this location, then the following config is not needed. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+					</archive>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>
