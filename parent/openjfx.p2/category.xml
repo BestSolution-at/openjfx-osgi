@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/openjfx.media.feature-11.0.0.jar" id="openjfx.media.feature" version="11.0.0">
+      <category name="openjfx"/>
+   </feature>
+   <feature url="features/openjfx.standard.feature-11.0.0.jar" id="openjfx.standard.feature" version="11.0.0">
+      <category name="openjfx"/>
+   </feature>
+   <feature url="features/openjfx.web.feature-11.0.0.jar" id="openjfx.web.feature" version="11.0.0">
+      <category name="openjfx"/>
+   </feature>
+   <feature url="features/openjfx.swing.feature-11.0.0.jar" id="openjfx.swing.feature" version="11.0.0">
+      <category name="openjfx"/>
+   </feature>
+   <category-def name="openjfx" label="Repackage OpenJFX"/>
+</site>

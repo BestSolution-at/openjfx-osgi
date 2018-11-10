@@ -20,10 +20,17 @@
 		<module>openjfx.web.linux_64</module>
 		<module>openjfx.web.mac</module>
 		<module>openjfx.web.win32_64</module>
+		<module>openjfx.standard.feature</module>
+		<module>openjfx.media.feature</module>
+		<module>openjfx.web.feature</module>
+		<module>openjfx.p2</module>
+		<module>openjfx.swing.feature</module>
 	</modules>
 	
 	<properties>
 		<openjfx.version>11</openjfx.version>
+		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
+		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
 	</properties>
 
 	<build>
