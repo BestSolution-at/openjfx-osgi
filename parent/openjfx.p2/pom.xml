@@ -28,6 +28,11 @@
 			<artifactId>openjfx.swing.feature</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<artifactId>openjfx.swt.feature</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		
 	</dependencies>
 
@@ -97,6 +102,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.swt</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
 									<artifactId>openjfx.web.linux_64</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
@@ -130,6 +140,16 @@
 								<artifactItem>
 									<groupId>at.bestsolution.openjfx</groupId>
 									<artifactId>openjfx.standard.feature</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.swt.feature</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.swing.feature</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 								<artifactItem>

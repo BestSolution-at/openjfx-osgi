@@ -25,6 +25,8 @@
 		<module>openjfx.web.feature</module>
 		<module>openjfx.p2</module>
 		<module>openjfx.swing.feature</module>
+		<module>openjfx.swt</module>
+		<module>openjfx.swt.feature</module>
 	</modules>
 	
 	<properties>

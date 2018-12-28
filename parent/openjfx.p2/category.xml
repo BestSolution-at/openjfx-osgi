@@ -12,5 +12,8 @@
    <feature url="features/openjfx.swing.feature-11.0.0.jar" id="openjfx.swing.feature" version="11.0.0">
       <category name="openjfx"/>
    </feature>
+   <feature url="features/openjfx.swt.feature-11.0.0.jar" id="openjfx.swt.feature" version="11.0.0">
+      <category name="openjfx"/>
+   </feature>
    <category-def name="openjfx" label="Repackage OpenJFX"/>
 </site>
