@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>at.bestsolution.openjfx</groupId>
 	<artifactId>parent</artifactId>
-	<version>11.0.0</version>
+	<version>11.0.2</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>openjfx.base</module>
@@ -30,7 +30,7 @@
 	</modules>
 	
 	<properties>
-		<openjfx.version>11</openjfx.version>
+		<openjfx.version>11.0.2</openjfx.version>
 		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
 	</properties>
