@@ -3,7 +3,7 @@
   <parent>
     <groupId>at.bestsolution.openjfx</groupId>
     <artifactId>parent</artifactId>
-    <version>11.0.0</version>
+    <version>11.0.2</version>
   </parent>
   <artifactId>openjfx.media.mac</artifactId>
   
