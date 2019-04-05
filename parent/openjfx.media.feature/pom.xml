@@ -31,7 +31,7 @@
 			<plugin>
 				<groupId>at.bestsolution</groupId>
 				<artifactId>maven-osgi-package-plugin</artifactId>
-				<version>0.0.2-SNAPSHOT</version>
+				<version>0.0.1</version>
 				<executions>
 					<execution>
 						<goals>
