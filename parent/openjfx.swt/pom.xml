@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>at.bestsolution.openjfx</groupId>
 		<artifactId>parent</artifactId>
-		<version>11.0.2</version>
+		<version>${revision}</version>
 	</parent>
 	<artifactId>openjfx.swt</artifactId>
 
