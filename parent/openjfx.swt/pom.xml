@@ -9,29 +9,41 @@
 	</parent>
 	<artifactId>openjfx.swt</artifactId>
 
-	<properties>
-		<javafx.sdk>/Users/tomschindl/Downloads/javafx-sdk-11/</javafx.sdk>
-	</properties>
+	<repositories>
+		<repository>
+			<name>BestSolution.at e(fx)clipse releases</name>
+			<id>efxclipse-releases</id>
+			<url>http://maven.bestsolution.at/efxclipse-releases/</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.coderplus.maven.plugins</groupId>
-				<artifactId>copy-rename-maven-plugin</artifactId>
-				<version>1.0</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.1.1</version>
 				<executions>
 					<execution>
-						<id>copy-file</id>
+						<id>copy</id>
 						<phase>process-resources</phase>
 						<goals>
 							<goal>copy</goal>
 						</goals>
-						<configuration>
-							<sourceFile>${javafx.sdk}/lib/javafx-swt.jar</sourceFile>
-							<destinationFile>${project.build.directory}/classes/javafx.swt.jar</destinationFile>
-						</configuration>
 					</execution>
 				</executions>
+				<configuration>
+					<artifactItems>
+						<artifactItem>
+							<groupId>at.bestsolution.openjfx</groupId>
+							<artifactId>javafx-swt</artifactId>
+							<version>${openjfx.version}</version>
+							<type>jar</type>
+							<outputDirectory>${project.build.directory}/classes</outputDirectory>
+							<destFileName>javafx.swt.jar</destFileName>
+						</artifactItem>
+					</artifactItems>
+				</configuration>
 			</plugin>
 		</plugins>
 		<pluginManagement>

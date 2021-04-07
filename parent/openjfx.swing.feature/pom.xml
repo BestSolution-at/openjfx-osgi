@@ -23,7 +23,7 @@
 			<plugin>
 				<groupId>at.bestsolution</groupId>
 				<artifactId>maven-osgi-package-plugin</artifactId>
-				<version>0.0.1</version>
+				<version>${maven-osgi-package-plugin.version}</version>
 				<executions>
 					<execution>
 						<goals>

@@ -29,11 +29,11 @@
 	</modules>
 	
 	<properties>
-		<revision>15</revision>
+		<revision>14</revision>
 		<openjfx.version>${revision}</openjfx.version>
 		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
-		
+		<maven-osgi-package-plugin.version>0.0.3-SNAPSHOT</maven-osgi-package-plugin.version>
 		<flatten-maven-plugin.version>1.2.3</flatten-maven-plugin.version>
 	</properties>
 
@@ -150,7 +150,7 @@
 					<plugin>
 						<groupId>org.sonatype.plugins</groupId>
 						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.7</version>
+						<version>1.6.8</version>
 						<extensions>true</extensions>
 						<configuration>
 							<serverId>exclipse-releases</serverId>
