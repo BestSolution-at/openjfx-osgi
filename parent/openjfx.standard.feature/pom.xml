@@ -40,6 +40,11 @@
 			<version>${project.version}</version>
 			<artifactId>openjfx.graphics.linux_64</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
+			<artifactId>openjfx.graphics.linux_aarch64</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

@@ -25,6 +25,11 @@
 			<version>${project.version}</version>
 			<artifactId>openjfx.media.linux_64</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
+			<artifactId>openjfx.media.linux_aarch64</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

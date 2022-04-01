@@ -26,10 +26,13 @@
 		<module>openjfx.swing.feature</module>
 		<module>openjfx.swt</module>
 		<module>openjfx.swt.feature</module>
+		<module>openjfx.graphics.linux_aarch64</module>
+		<module>openjfx.media.linux_aarch64</module>
+		<module>openjfx.web.linux_aarch64</module>
 	</modules>
 	
 	<properties>
-		<revision>14</revision>
+		<revision>18</revision>
 		<openjfx.version>${revision}</openjfx.version>
 		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
@@ -123,12 +126,12 @@
 			<id>deploy-bestsolution</id>
 			<distributionManagement>
 				<repository>
-					<id>efxclipse-releases</id>
-					<url>http://rattenschwanz.bestsolution.at:8081/nexus/content/repositories/efxclipse-releases</url>
+					<id>oss-releases</id>
+					<url>https://maven.bestsolution.at/deploy/releases/</url>
 				</repository>
 				<snapshotRepository>
-					<id>efxclipse-snapshots</id>
-					<url>http://rattenschwanz.bestsolution.at:8081/nexus/content/repositories/efxclipse-snapshots</url>
+					<id>oss-snapshots</id>
+					<url>https://maven.bestsolution.at/deploy/snapshots/</url>
 				</snapshotRepository>
 			</distributionManagement>
 			<build>
