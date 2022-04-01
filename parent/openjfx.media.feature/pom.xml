@@ -18,6 +18,11 @@
 		<dependency>
 			<groupId>at.bestsolution.openjfx</groupId>
 			<version>${project.version}</version>
+			<artifactId>openjfx.media.mac_aarch64</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
 			<artifactId>openjfx.media.win32_64</artifactId>
 		</dependency>
 		<dependency>

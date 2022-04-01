@@ -33,6 +33,11 @@
 		<dependency>
 			<groupId>at.bestsolution.openjfx</groupId>
 			<version>${project.version}</version>
+			<artifactId>openjfx.graphics.mac_aarch64</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
 			<artifactId>openjfx.graphics.win32_64</artifactId>
 		</dependency>
 		<dependency>

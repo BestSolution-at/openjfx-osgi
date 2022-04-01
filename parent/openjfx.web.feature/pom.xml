@@ -17,6 +17,11 @@
 		<dependency>
 			<groupId>at.bestsolution.openjfx</groupId>
 			<version>${project.version}</version>
+			<artifactId>openjfx.web.mac_aarch64</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
 			<artifactId>openjfx.web.win32_64</artifactId>
 		</dependency>
 		<dependency>

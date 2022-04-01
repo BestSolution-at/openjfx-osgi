@@ -29,6 +29,9 @@
 		<module>openjfx.graphics.linux_aarch64</module>
 		<module>openjfx.media.linux_aarch64</module>
 		<module>openjfx.web.linux_aarch64</module>
+		<module>openjfx.graphics.mac_aarch64</module>
+		<module>openjfx.media.mac_aarch64</module>
+		<module>openjfx.web.mac_aarch64</module>
 	</modules>
 	
 	<properties>
