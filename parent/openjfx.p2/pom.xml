@@ -72,7 +72,17 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.graphics.linux_aarch64</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
 									<artifactId>openjfx.graphics.mac</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.graphics.mac_aarch64</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 								<artifactItem>
@@ -87,7 +97,17 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.media.linux_aarch64</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
 									<artifactId>openjfx.media.mac</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.media.mac_aarch64</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 								<artifactItem>
@@ -112,7 +132,17 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.web.linux_aarch64</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
 									<artifactId>openjfx.web.mac</artifactId>
+									<version>${project.version}</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>at.bestsolution.openjfx</groupId>
+									<artifactId>openjfx.web.mac_aarch64</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 								<artifactItem>
