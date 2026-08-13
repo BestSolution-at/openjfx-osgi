@@ -7,6 +7,7 @@
 	<version>${revision}</version>
 	<packaging>pom</packaging>
 	<modules>
+		<module>jdk.jsobject</module>
 		<module>openjfx.base</module>
 		<module>openjfx.graphics.mac</module>
 		<module>openjfx.graphics.win32_64</module>
@@ -33,9 +34,9 @@
 		<module>openjfx.media.mac_aarch64</module>
 		<module>openjfx.web.mac_aarch64</module>
 	</modules>
-	
+
 	<properties>
-		<revision>21.0.2</revision>
+		<revision>25</revision>
 		<openjfx.version>${revision}</openjfx.version>
 		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
@@ -114,7 +115,7 @@
 
 		</plugins>
 	</build>
-	
+
 	<profiles>
 		<profile>
 			<id>p2</id>

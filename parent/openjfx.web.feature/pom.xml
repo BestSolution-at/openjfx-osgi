@@ -12,6 +12,11 @@
 		<dependency>
 			<groupId>at.bestsolution.openjfx</groupId>
 			<version>${project.version}</version>
+			<artifactId>jdk.jsobject</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>at.bestsolution.openjfx</groupId>
+			<version>${project.version}</version>
 			<artifactId>openjfx.web.mac</artifactId>
 		</dependency>
 		<dependency>
