@@ -36,7 +36,7 @@
 	</modules>
 
 	<properties>
-		<revision>25</revision>
+		<revision>25.0.4</revision>
 		<openjfx.version>${revision}</openjfx.version>
 		<osgi.qualifier>${maven.build.timestamp}</osgi.qualifier>
 		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
